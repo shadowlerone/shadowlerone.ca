@@ -1,5 +1,6 @@
 /bootstrap
 /assets
-/nodeapp/ExpressApp1/ExpressApp1/node_modules/.bin
-/nodeapp/ExpressApp1/ExpressApp1/obj/Debug
-/nodeapp/ExpressApp1/.vs/ExpressApp1/v16
+/scss
+/index.html
+/main.css
+/discography

@@ -1,0 +1,6 @@
+C:\Users\shadowlerone\source\repos\ExpressApp1\ExpressApp1\obj\Debug\ExpressApp1.njsprojAssemblyReference.cache
+C:\Users\shadowlerone\source\repos\ExpressApp1\ExpressApp1\obj\Debug\ExpressApp1.njsproj.CoreCompileInputs.cache
+C:\Users\shadowlerone\source\repos\ExpressApp1\ExpressApp1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\shadowlerone\Documents\GitHub\shadowlerone.ca\shadowlerone.ca\nodeapp\ExpressApp1\ExpressApp1\obj\Debug\ExpressApp1.njsprojAssemblyReference.cache
+C:\Users\shadowlerone\Documents\GitHub\shadowlerone.ca\shadowlerone.ca\nodeapp\ExpressApp1\ExpressApp1\obj\Debug\ExpressApp1.njsproj.CoreCompileInputs.cache
+C:\Users\shadowlerone\Documents\GitHub\shadowlerone.ca\shadowlerone.ca\nodeapp\ExpressApp1\ExpressApp1\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,131 @@
+html,
+body {
+	min-height: 100%;
+	background-color: #0d68a8;
+}
+
+@font-face {
+	font-family: Phenomena;
+	src: url(/fonts/Phenomena/web/Phenomena-Light.woff2)
+}
+
+#wrapper {
+	/* min-width: 100vh;
+	min-height: 100%; */
+}
+
+* {
+	font-family: 'Phenomena';
+	color:white;
+}
+
+.pfp {
+	/* max-width: 50%; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+}
+
+.nav-link,
+.navbar-brand {
+	font-size: 2rem;
+	transition: 0.125s;
+}
+
+.nav-link {
+	color: rgba(255, 255, 255, 0.8) !important;
+	
+}
+
+.nav-link:hover, .navbar-brand:hover, .navbar-toggler:hover {
+	color: rgba(255, 255, 255, 1) !important;
+	background-color:#636363 !important;
+	transition: 0.25s;
+}
+
+.profile {
+	/* margin-top: 5rem;
+	margin-left: 1rem; */
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 80%;
+	color: white;
+}
+
+.profile>* {
+	/* border: 1px solid black; */
+	font-size: 2rem;
+}
+
+.card-h {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin: 0;
+	padding: 5%;
+	width: 100%;
+	font-size: 2rem;
+}
+
+.card-title {
+	font-size: 2.50rem;
+}
+
+.card {
+	width: 400px;
+}
+
+.card>img {
+	width: 100%;
+	filter: grayscale(75%);
+	transition: 0.125s;
+}
+.card:hover > img {
+	filter: grayscale(0%);
+	transition: 0.200;
+}
+
+.list-group-item-action {
+	/* color: blue; */
+}
+
+.desc {
+	font-size: 2rem;
+}
+
+.list-group > *{
+	font-size: 2rem;
+}
+
+
+.slideanim {
+	visibility: hidden;
+}
+
+.slide {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	visibility: visible;
+}
+
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(70%);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0%);
+	}
+}

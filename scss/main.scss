@@ -5,4 +5,34 @@
 
 // @import "../bootstrap/scss/grid";
 
-@import "../bootstrap/scss/bootstrap"
+@import "../bootstrap/scss/bootstrap";
+$theme-colors: (
+  "primary": #0e97fa
+);
+
+* {
+	font-family: 'Phenomena';
+}
+
+.pfp {
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-h {
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	margin:0;
+	padding:5%;
+	width: 100%;
+}
+.card {
+	width: 400px;
+}
+.card > img {
+	width: 100%;
+}
+.list-group-item-action {
+	// color: blue;
+}

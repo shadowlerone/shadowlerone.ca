@@ -5,14 +5,23 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', { title: 'Express' });
+    res.render('index', { desc: fs.readFileSync("routes/desc.txt") });
+});
+
+router.get('/discography', function (req, res) {
+    let rawdata = fs.readFileSync('routes/albums.json');
+    let albums = JSON.parse(rawdata);
+    // console.log(rawdata);
+    res.render('discography', albums);
 });
 
 router.get('/discography/:id', function (req, res) {
-    let rawdata = fs.readFileSync('C:/Users/shadowlerone/source/repos/ExpressApp1/ExpressApp1/routes/Json.json');
-    let album = JSON.parse(rawdata)[req.params.id];
-    console.log(album);
+    let rawdata = fs.readFileSync('routes/albums.json');
+    let albums = JSON.parse(rawdata);
+    console.log(albums['albums']);
+    var album = albums['albums'][req.params.id];
     res.render('album', album);
 });
+
 
 module.exports = router;

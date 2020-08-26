@@ -3,18 +3,18 @@ extends layout
 block content
     div(class="row")
         div(class="col-md-3")
-            img(src="/images/grooves_and_wobbly_air.png", class="rounded mx-auto img-fluid")
+            img(src=art, class="rounded mx-auto img-fluid")
         div(class="col-md-6")
             row
-                h1 #{title}
-            p #{desc}
+                h1(class="display-3") #{title}
+            p(class="desc") #{desc}
         div(class="col-md-3")
             div(class="list-group")
                 each track in tracks
                     if track.preview
                         a(href="#", class="list-group-item list-group-item-action", onclick="playback_toggle(this.children[0])") #{track.title}
                             audio
-                                source(src="/audio/#{title}.mp3", type="audio/mpeg")
+                                source(src=track.file, type="audio/mpeg")
                     else
                         a(href="#" class="list-group-item list-group-item-action disabled") #{track.title}
                     

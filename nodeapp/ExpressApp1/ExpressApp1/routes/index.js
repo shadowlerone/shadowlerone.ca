@@ -5,7 +5,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', { desc: fs.readFileSync("routes/desc.txt") });
+	let rawdata = fs.readFileSync('routes/text.json');
+    let text = JSON.parse(rawdata);
+    res.render('index', text);
 });
 
 router.get('/discography', function (req, res) {
@@ -22,6 +24,10 @@ router.get('/discography/:id', function (req, res) {
     var album = albums['albums'][req.params.id];
     res.render('album', album);
 });
+
+router.get('/students', function (req, res){
+	res.render('students');
+})
 
 
 module.exports = router;

@@ -1,7 +1,13 @@
-html,
-body {
+html {
 	min-height: 100%;
 	background-color: #0d68a8;
+	background: rgb(118,30,207);
+	background: linear-gradient(130deg, rgba(118,30,207,1) 0%, rgba(13,104,168,1) 6%, rgba(51,135,195,1) 19%, rgba(8,121,203,1) 31%, rgba(3,148,168,1) 52%, rgba(57,104,255,1) 79%, rgba(14,151,250,1) 100%); 
+}
+
+body,
+#wrapper {
+	background: rgba(0, 0, 0, 0)
 }
 
 @font-face {
@@ -9,14 +15,9 @@ body {
 	src: url(/fonts/Phenomena/web/Phenomena-Light.woff2)
 }
 
-#wrapper {
-	/* min-width: 100vh;
-	min-height: 100%; */
-}
-
 * {
 	font-family: 'Phenomena';
-	color:white;
+	color: white;
 }
 
 .pfp {
@@ -34,19 +35,20 @@ body {
 
 .nav-link {
 	color: rgba(255, 255, 255, 0.8) !important;
-	
 }
 
-.nav-link:hover, .navbar-brand:hover, .navbar-toggler:hover {
+.nav-link:hover,
+.navbar-brand:hover,
+.navbar-toggler:hover {
 	color: rgba(255, 255, 255, 1) !important;
-	background-color:#636363 !important;
+	background-color: #636363 !important;
 	transition: 0.25s;
 }
 
 .profile {
 	/* margin-top: 5rem;
 	margin-left: 1rem; */
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.5);
 	width: 80%;
 	color: white;
 }
@@ -75,10 +77,11 @@ body {
 
 .card>img {
 	width: 100%;
-	filter: grayscale(75%);
+	filter: grayscale(50%);
 	transition: 0.125s;
 }
-.card:hover > img {
+
+.card:hover>img {
 	filter: grayscale(0%);
 	transition: 0.200;
 }
@@ -91,10 +94,9 @@ body {
 	font-size: 2rem;
 }
 
-.list-group > *{
+.list-group>* {
 	font-size: 2rem;
 }
-
 
 .slideanim {
 	visibility: hidden;

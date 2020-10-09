@@ -15,9 +15,9 @@ router.get('/album/:id/:format', function (req, res){
 	let albums = JSON.parse(rawdata);
 	var callback;
 	if (req.query.callback){
-		callback = req.query.callback
+		callback = req.query.callback;
 	} else {
-		callback = `/discography/${req.params.id}`
+		callback = `/discography/${req.params.id}`;
 	}
 	var album = albums['albums'][req.params.id]['title'];
 	res.download(`${__dirname}/../downloads/albums/${req.params.format}/${album}.zip`);

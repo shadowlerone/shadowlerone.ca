@@ -1,0 +1,26 @@
+{"socials":[
+	{
+		"name":"Instagram",
+		"url":"/instagram"
+	},
+	{
+		"name":"Twitter",
+		"url":"/twitter"
+	},
+	{
+		"name":"Twitch",
+		"url":"/twitch"
+	},
+	{
+		"name":"Youtube",
+		"url":"/youtube"
+	},
+	{
+		"name":"Bandcamp",
+		"url":"/bandcamp"
+	},
+	{
+		"name":"Soundcloud",
+		"url":"/soundcloud"
+	}
+]}

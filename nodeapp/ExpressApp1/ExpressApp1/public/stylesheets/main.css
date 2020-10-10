@@ -20,6 +20,10 @@ body,
 	color: white;
 }
 
+a {
+	text-decoration: none !important;
+}
+
 .pfp {
 	/* max-width: 50%; */
 	margin-left: auto;
@@ -93,6 +97,24 @@ body,
 .desc {
 	font-size: 2rem;
 }
+
+.scls-wrapper {
+	margin-top: 1rem;
+	margin-left:auto;
+	margin-right: auto;
+	width:95%;
+}
+.scls {
+	font-size: 2rem;
+	transition: 0.250s;
+	text-decoration: none;
+}
+.scls:hover {
+	background-color:rgb(151, 118, 184);
+	transition: 0.250s;
+	text-decoration: none;
+}
+
 
 .list-group>* {
 	font-size: 2rem;

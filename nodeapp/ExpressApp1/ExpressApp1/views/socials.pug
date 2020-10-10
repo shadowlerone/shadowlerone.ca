@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	div(class="container-fluid slideanim scls-wrapper")
+		each site in socials
+			a(href=site.url, class="m-1")
+				div(class="row slideanim border rounded scls p-3 bg-grey") #{site.name}

@@ -1,40 +1,49 @@
 {
 	"socials": [
 		{
-			"name": "",
+			"name": "Instagram",
 			"url": "/instagram",
 			"class": "fa fa-instagram"
 		},
 		{
-			"name": "",
+			"name": "Twitter",
 			"url": "/twitter",
 			"class": "fa fa-twitter"
 		},
 		{
-			"name": "",
+			"name": "Twitch",
 			"url": "/twitch",
 			"class": "fa fa-twitch"
 		},
 		{
-			"name": "",
+			"name": "Youtube",
 			"url": "/youtube",
 			"class": "fa fa-youtube"
 		},
 		{
-			"name": "",
+			"name": "Bandcamp",
 			"url": "/bandcamp",
 			"class": "fa fa-bandcamp"
 		},
 		{
-			"name": "",
+			"name": "Soundcloud",
 			"url": "/soundcloud",
 			"class": "fa fa-soundcloud"
 		}
 	],
 	"projects": [
 		{
-			"name":"",
-			"url":""
+			"name":"Latest Release: Grooves and Wobbly Air",
+			"url":"/discography/0/",
+			"img":"/images/grooves_and_wobbly_air.png",
+			"type":"card"
+		},
+		{
+			"name":"Feel Good Inc.",
+			"embed":"<iframe frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"src":"https://www.youtube.com/embed/h5joCRxsyxc",
+			"img":"/images/feel_good_inc.png",
+			"type":"embed"
 		}
 	]
 }

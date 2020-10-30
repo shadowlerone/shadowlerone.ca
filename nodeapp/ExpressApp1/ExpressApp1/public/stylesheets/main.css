@@ -75,7 +75,7 @@ a {
 	font-size: 2.50rem;
 }
 
-.card {
+.album-card {
 	width: 400px;
 }
 
@@ -118,6 +118,15 @@ a {
 	text-decoration: none;
 	
 }
+.scls-card {
+	width: 10rem;
+}
+.card-iframe {
+	z-index: 10;
+	width:100%;
+	min-height:auto;
+	height:100%;
+}
 
 .fa {
 	/* padding: 0.2rem; */
@@ -127,7 +136,7 @@ a {
 	text-decoration: none;
 	margin: 5px 2px;
 	color:white;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 .fa:hover {
 	color:white

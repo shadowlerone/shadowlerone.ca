@@ -75,7 +75,7 @@ a {
 	font-size: 2.50rem;
 }
 
-.card {
+.album-card {
 	width: 400px;
 }
 
@@ -98,22 +98,51 @@ a {
 	font-size: 2rem;
 }
 
+
 .scls-wrapper {
 	margin-top: 1rem;
 	margin-left:auto;
 	margin-right: auto;
-	width:95%;
+	width:90%;
+	padding: 0.2rem;
 }
 .scls {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	transition: 0.250s;
 	text-decoration: none;
+	cursor: pointer;
 }
 .scls:hover {
 	background-color:rgb(151, 118, 184);
 	transition: 0.250s;
 	text-decoration: none;
+	
 }
+.scls-card {
+	width: 10rem;
+}
+.card-iframe {
+	z-index: 10;
+	width:100%;
+	min-height:auto;
+	height:100%;
+}
+
+.fab {
+	/* padding: 0.2rem; */
+	font-size: 2.5rem;
+	/* width: 1rem; */
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	color:white;
+	/* border: 1px solid red; */
+}
+.fab:hover {
+	color:white
+}
+
+
 
 
 .list-group>* {

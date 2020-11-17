@@ -27,7 +27,13 @@ router.get('/discography/:id', function (req, res) {
 
 router.get('/students', function (req, res){
 	res.render('students');
-})
+});
+
+router.get(['/socials','/links'], function (req, res){
+	let rawdata = fs.readFileSync('routes/socials.json');
+	let socials = JSON.parse(rawdata);
+	res.render('socials', socials);
+});
 
 
 module.exports = router;

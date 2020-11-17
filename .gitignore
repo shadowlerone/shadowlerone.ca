@@ -9,6 +9,10 @@
 /nodeapp/ExpressApp1/ExpressApp1/bin
 /nodeapp/ExpressApp1/.vs/ExpressApp1/v16
 /nodeapp/ExpressApp1/ExpressApp1/obj/Debug
-nodeapp/ExpressApp1/ExpressApp1/downloads/albums/wav/Feel Good Inc.zip
-*.zip
-nodeapp/ExpressApp1/.vs/ExpressApp1/v16/.suo
+
+/nodeapp/ExpressApp1/ExpressApp1/downloads/albums/wav/Grooves and Wobbly Air.zip
+/nodeapp/ExpressApp1/ExpressApp1/downloads/albums/wav/Feel Good Inc.zip
+/*.cache
+/nodeapp/ExpressApp1/.vs
+/nodeapp/ExpressApp1/ExpressApp1/obj/Debug/ExpressApp1.njsprojAssemblyReference.cache
+/nodeapp/ExpressApp1/.vs/*

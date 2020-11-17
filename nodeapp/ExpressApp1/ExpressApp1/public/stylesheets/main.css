@@ -128,7 +128,7 @@ a {
 	height:100%;
 }
 
-.fa {
+.fab {
 	/* padding: 0.2rem; */
 	font-size: 2.5rem;
 	/* width: 1rem; */
@@ -138,7 +138,7 @@ a {
 	color:white;
 	/* border: 1px solid red; */
 }
-.fa:hover {
+.fab:hover {
 	color:white
 }
 

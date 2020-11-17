@@ -2,14 +2,14 @@ extends layout
 
 block content
 	div(class="slideanim scls-wrapper row")
-		div(class='col-md-2')
+		div(class='col-sd-2')
 			each site in socials
 				a(href=site.url, class="md-1")
 					div(class="row slideanim border rounded scls p-3 bg-grey") 
 						span(class=site.class + " btn align-middle")
 						span #{site.name}
 
-		div(class='col-md-10 card-columns')
+		//- div(class='col-md-10 card-columns')
 			each site in projects
 				if site.type=="card"
 					div(class="scls-card card rounded")

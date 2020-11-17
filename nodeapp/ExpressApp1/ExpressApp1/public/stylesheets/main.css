@@ -104,14 +104,20 @@ a {
 	margin-left:auto;
 	margin-right: auto;
 	width:90%;
-	padding: 0.2rem;
+	padding: 02rem;
 }
+
 .scls {
 	font-size: 2.5rem;
 	transition: 0.250s;
 	text-decoration: none;
-	cursor: pointer;
+	cursor: pointer;	
+	margin-top:0.2rem;
+	margin-bottom:0.2rem;
+	margin-left:0.2rem;
+	margin-right:0.2rem;
 }
+
 .scls:hover {
 	background-color:rgb(151, 118, 184);
 	transition: 0.250s;

@@ -1,12 +1,12 @@
 extends layout
 
 block content
-	div(class="slideanim scls-wrapper row")
+	div(class="slideanim scls-wrapper card-columns")
 		each site in socials
 			a(href=site.url, class="lg-1")
-				div(class="slideanim border rounded scls p-3 bg-grey") 
+				div(class="slideanim border rounded scls card p-3 bg-grey") 
 					span(class=site.class + " btn align-middle")
-					span #{site.name}
+					span(class="sn") #{site.name}
 
 		//- div(class='col-md-10 card-columns')
 			each site in projects

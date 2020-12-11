@@ -100,8 +100,9 @@ router.get('/choice/:winner/:loser', function (req, res) {
 });
 
 router.get('/results', function (req, res) {
-	data = data()['users'][req.cookies['user']];
-	res.json(data);
+	var d = data()['users'][req.cookies['user']];
+	
+	res.json(d);
 });
 
 router.get('/stats', function (req, res) {

@@ -1,0 +1,12 @@
+extends main
+
+block content
+	div(id="choices", class="card-deck")
+		div(class="card bg-primary")
+			a(id="a1", href="#", class="", onclick="submit('" + a['choice1'] + "','" + a['choice2'] + "')")
+				div(class="card-body text-center") 
+					p(id="p1", class="card-text")=a['choice1']
+		div(class="card bg-success")
+			a(id="a2",href="#", class="", onclick="submit('" + a['choice2'] + "','" + a['choice1'] + "')")
+				div(class="card-body text-center")
+					p(id="p2", class="card-text")=a['choice2']

@@ -187,3 +187,13 @@ a {
 		-webkit-transform: translateY(0%);
 	}
 }
+
+
+.pkmn {
+	min-height: 30vh;
+}
+.pkmn-2 {
+	min-height: 20vh;
+	margin-top: 1rem;
+	font-size: 2rem;
+}

@@ -10,6 +10,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var redirects = require('./routes/redirects');
+var pokemon = require('./routes/pokemon');
 
 var app = express();
 
@@ -27,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/pokemon', pokemon);
 app.use(['/redirects','/r'], redirects);
 
 // catch 404 and forward to error handler

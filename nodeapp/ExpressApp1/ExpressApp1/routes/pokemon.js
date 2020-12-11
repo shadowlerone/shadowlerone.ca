@@ -66,7 +66,7 @@ function getRandom(arr, n) {
 /* Redirects */
 router.get('/', function (req, res) {
 	console.log('Cookies: ', req.cookies);
-	res.send("hello");
+	res.render("pokemon/home");
 });
 
 router.get('/start', function (req, res) {

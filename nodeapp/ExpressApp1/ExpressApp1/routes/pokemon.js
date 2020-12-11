@@ -101,7 +101,8 @@ router.get('/choice/:winner/:loser', function (req, res) {
 
 router.get('/results', function (req, res) {
 	var d = data()['users'][req.cookies['user']];
-	
+	// var rs;
+	// console.log(rs);
 	res.json(d);
 });
 
